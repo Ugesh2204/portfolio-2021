@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #0b1729;
+}
+
+.heading-title {
+    margin-bottom: 6rem;
+} 
+
+.heading-title h4 {
+    color:#46c7bb;
+}
+
+.hexagon-container {
+    display:flex;
+}
+
+
+#hexagon {
+    width: 200px;
+    height: 100px;
+    background: #46c7bb;
+    position: relative;
+    margin: 2rem 1rem;
+}
+
+#hexagon:hover{
+  background-color: pink;
+}
+
+#hexagon:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid #46c7bb;
+}
+
+#hexagon:hover:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid pink;
+}
+
+
+#hexagon:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 50px solid #46c7bb;;
+}
+
+#hexagon:hover:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 50px solid pink;;
+}
+.hex-text-align {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide-hexagon {
+    display: none;
+}
+
+.hexagon-container.hexa-marging {
+    margin-top: 3rem;
+}
+
+.react {
+    font-size:6rem;
+}
+
+
+
