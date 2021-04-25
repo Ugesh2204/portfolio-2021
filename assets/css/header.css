@@ -1,0 +1,41 @@
+header {
+    height: calc(100vh - 50px);
+    min-height: 100%;
+    /* background-color: blueviolet; */
+}
+#main-home .navbar {
+    margin-top:2rem;
+}
+#main-home .logo {
+    width:61px;
+}
+#main-home .navbar-nav .nav-item a {
+    color:#46c7bb;
+}
+
+.btn-resume {
+    color:#46c7bb;
+    padding:  0.3rem 1rem;
+    border: 1px solid #46c7bb;
+    border-radius: 0;
+}
+.btn-resume:hover {
+  color:#fff;
+  background-color:#46c7bb;
+  transition: 0.8s;
+}
+
+.intro {
+    margin-top:6rem;
+}
+
+.intro-welcome {
+    color:#46c7bb;
+    font-size:1rem
+}
+.intro-name {color:#d5e0fc;}
+.intro-build {color:#d5e0fc;}
+.intro-text {color:#d5e0fc; font-size:0.8rem}
+.getintouch {
+    margin-top:3rem;
+}
